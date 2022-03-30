@@ -1,0 +1,19 @@
+<br><br>
+<div [ngSwitch]="carName">
+    <div *ngSwitchCase="'Mazda'">
+        <h3>The car you selected is: {{carName}}</h3><br>
+        <img src="{{carimgs[0]}}" height="300">
+    </div>
+    <div *ngSwitchCase="'Volvo'">
+        <h3>The car you selected is: {{carName}}</h3><br>
+        <img src="{{carimgs[1]}}" height="300">
+    </div>
+    <div *ngSwitchCase="'Audi'">
+        <h3>The car you selected is: {{carName}}</h3><br>
+        <img src="{{carimgs[2]}}" height="300">
+    </div>
+    <div *ngSwitchCase="'Mercedes'">
+        <h3>The car you selected is: {{carName}}</h3><br>
+        <img src="{{carimgs[3]}}" height="300">
+    </div>
+</div>

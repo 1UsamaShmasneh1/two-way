@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'two-way';
+  carName = '';
+  changeCarName(car:string){
+    this.carName = car;
+  }
 }

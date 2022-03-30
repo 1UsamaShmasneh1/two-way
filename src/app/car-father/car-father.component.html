@@ -1,0 +1,8 @@
+<label for="cars">Choose a car: </label><br>
+<select #selected (change)="getCarNameEvent.emit(selected.value)" [(ngModel)]="selected.value">
+    <option value=""></option>
+    <option value="{{cars[0].carName}}">{{cars[0].carName}}</option>
+    <option value="{{cars[1].carName}}">{{cars[1].carName}}</option>
+    <option value="{{cars[2].carName}}">{{cars[2].carName}}</option>
+    <option value="{{cars[3].carName}}">{{cars[3].carName}}</option>
+</select>
