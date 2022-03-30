@@ -12,10 +12,10 @@ export class CarChildeComponent implements OnInit {
   @Input() carName = ''
 
   carimgs:string[] = [
-    '../../assets/mazda.jpg',
-    '../../assets/volvo.jpg',
-    '../../assets/audi.jpg',
-    '../../assets/mercedes.jpg'
+    '../../assets/mazda.png',
+    '../../assets/volvo.png',
+    '../../assets/audi.png',
+    '../../assets/mercedes.png'
   ]
 
   ngOnInit(): void {
